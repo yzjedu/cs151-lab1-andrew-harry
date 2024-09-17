@@ -7,10 +7,10 @@
 # Data Out: The gas price will be outputted for user to see.
 # Credits: Class assignment
 
-miles_traveling = float(input('Enter miles traveling : '))
-miles_per_gallon = float(input('Enter miles per gallon for the vehicle : '))
-gas_price_per_gallon = float(input('Enter gas price per gallon for the vehicle : '))
+miles_traveling = float(input('Enter miles traveling : ')) #Stores the users input as a variable under miles_traveling
+miles_per_gallon = float(input('Enter miles per gallon for the vehicle : ')) #Stores the users input as a variable under miles_per_gallon
+gas_price_per_gallon = float(input('Enter gas price per gallon for the vehicle : ')) #Stores the users input as a variable under gas_price_per_gallon
 
-gas_price = (miles_traveling / miles_per_gallon) * gas_price_per_gallon
+gas_price = (miles_traveling / miles_per_gallon) * gas_price_per_gallon #Calculates the gas price and stores it in variable gas_price
 
-print(f"Your gas price for the trip: ${gas_price:.2f}")
+print(f"Your gas price for the trip: ${gas_price:.2f}") #Outputs a message displaying the gas price
